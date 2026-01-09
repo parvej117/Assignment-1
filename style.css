@@ -188,7 +188,7 @@
     justify-content: center;
 }
 
-/* card design */
+
 .card {
     width: 322px;
     height: 300px;
@@ -205,7 +205,7 @@
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* icon container */
+
 .card div {
     width: 40px;
     height: 40px;
@@ -215,25 +215,66 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 20px;
-    /* ⭐ center */
+
 }
 
-/* icon */
+
 .card img {
     width: 16px;
     height: 16px;
 }
 
-/* heading */
+
 .card h3 {
     font-size: 18px;
     margin-bottom: 12px;
     color: #222;
 }
 
-/* paragraph */
+
 .card p {
     font-size: 14px;
     line-height: 1.6;
     color: #555;
+}
+
+.solution-section {
+    display: flex;
+    width: 1080px;
+    margin: 50px auto;
+    gap: 25px;
+}
+
+.text-1 {
+    margin: 50px;
+
+}
+
+.name-1 img {
+
+    height: 400px;
+    width: 400px;
+}
+
+.text-1 h5 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: green;
+}
+
+.text-1 h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.para p {
+    font-size: 13px;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+
+.chekmark p {
+    font-size: 19px;
+    padding: 2px 0;
 }
