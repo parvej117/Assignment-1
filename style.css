@@ -26,7 +26,7 @@
 
 .n-item ul li:hover {
     color: white;
-    background-color: rgb(169, 187, 176);
+    background-color: rgb(16, 19, 221);
     padding: 0px 10px;
     border-radius: 8px;
 }
@@ -36,6 +36,10 @@
     color: black;
     font-size: 1em;
     line-height: 44px;
+}
+
+.n-item ul li a:hover {
+    color: white;
 }
 
 .n-btn button {
@@ -72,6 +76,8 @@
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
 }
 
 .banner-box a {
@@ -281,10 +287,17 @@
 
 .chalange {
     width: 1180px;
-    height: 250px;
+    height: 300px;
     background-color: rgba(213, 218, 170, 0.699);
     text-align: center;
     margin: auto;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.chalange:hover {
+    background-color: rgba(86, 226, 226, 0.377);
+    transform: scale(1.05);
 }
 
 .chalange h1 {
@@ -331,4 +344,68 @@
 
 .dirk p {
     padding: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 280px;
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 100px;
+}
+
+.footer-section {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section div {
+    margin: 50px;
+}
+
+.footer-section div img {
+    width: 139px;
+    height: 60px;
+}
+
+.footer-section .media-link h5 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    color: white;
+}
+
+.footer-section .media-link i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.media-link div {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.f-line {
+    width: 1050px;
+    height: 0;
+    border: 1px solid white;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
